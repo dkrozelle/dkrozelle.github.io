@@ -1,0 +1,58 @@
+/*
+    Document   : main
+    Created on : 20130726
+    Author     : ciclistadan
+    Description:
+
+main stylesheet for layout and design
+
+*/
+
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:10pt; 
+    background-color:#cccccc;
+    background-position:right top;
+    }
+
+input, form, textarea
+h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+h1{font-size:18px;}
+h2{font-size:14px; color:#999999;}
+h3{font-size:13px; border-bottom:solid 1px #DEDEDE; padding:4px 0; margin-bottom:10px;}
+
+/* -----------------------------------------------
+PAGE STRUCTURE
+----------------------------------------------- */
+
+.content {
+    position: absolute;
+    width: 40%;
+    right:2%;
+    top: 10%;
+    text-align: center;
+
+    padding:15px 0 15px 0;
+
+
+
+    background: rgba(54, 25, 25, .5);
+}
+
+.text{
+    font-size: 24px;
+    color:white;
+    text-decoration: none;
+    display:block;
+}
+
+img {
+    position : absolute;
+    width    : 100%;
+    top:0px;
+    left:0px;
+    z-index  : -1;
+    overflow : visible;
+}
